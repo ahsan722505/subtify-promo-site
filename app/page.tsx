@@ -42,27 +42,29 @@ export default async function Home() {
   );
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">AI Subtitle Creator</h1>
+        <h1 className="text-4xl font-bold mb-4 text-black">
+          AI Subtitle Creator
+        </h1>
         <p className="text-lg text-gray-700">
           Create audio/video subtitles with AI
         </p>
       </header>
 
       <div className="flex flex-col items-center">
-        <p className="text-xl mb-8">Download for your platform:</p>
+        <p className="text-xl mb-8 text-black">Download for your platform:</p>
 
         <div className="flex space-x-4">
           <a
             href={linux}
-            className="bg-blue-500 text-white py-2 px-4 rounded shadow hover:bg-blue-600"
+            className="bg-blue-500 text-center text-white py-2 px-4 rounded shadow hover:bg-blue-600"
           >
             Download for Linux
           </a>
           <a
             href={win}
-            className="bg-blue-500 text-white py-2 px-4 rounded shadow hover:bg-blue-600"
+            className="bg-blue-500 text-center text-white py-2 px-4 rounded shadow hover:bg-blue-600"
           >
             Download for Windows
           </a>
