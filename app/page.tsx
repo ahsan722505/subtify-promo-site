@@ -11,6 +11,7 @@ async function getLatestWindowAndLinuxApp(
       headers: {
         Accept: "application/vnd.github.v3+json",
       },
+      cache: "no-store",
     });
 
     if (!response.ok) {
