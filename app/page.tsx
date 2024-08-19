@@ -67,7 +67,7 @@ export default async function Home() {
           <p className="text-xl mb-8">
             Import, Generate, Edit, and Style Your Subtitles in Minutes
           </p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex justify-center space-x-4 px-4">
             <DownloadButton platform="Windows" icon="🪟" url={win} />
             <DownloadButton platform="Linux" icon="🐧" url={linux} />
           </div>
@@ -76,7 +76,7 @@ export default async function Home() {
 
       {/* Features Section */}
       <section id="features" className="py-20">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Key Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard
@@ -100,7 +100,7 @@ export default async function Home() {
 
       {/* How It Works Section */}
       <section id="how-it-works" className="bg-gray-200 py-20">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Step number={1} title="Import Your Media">
@@ -119,7 +119,7 @@ export default async function Home() {
 
       {/* App Screenshot */}
       <section className="py-20">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center px-4">
           <h2 className="text-3xl font-bold mb-8">See Subtify in Action</h2>
           <div className="grid grid-cols-1 gap-8">
             <AppScreenshot
@@ -140,7 +140,7 @@ export default async function Home() {
 
       {/* Styling Options */}
       <section className="bg-blue-100 py-20">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
             Powerful Styling Options
           </h2>
@@ -155,7 +155,7 @@ export default async function Home() {
 
       {/* Call to Action */}
       <section className="bg-blue-600 text-white py-20">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center px-4">
           <h2 className="text-4xl font-bold mb-4">
             Ready to Create Amazing Subtitles?
           </h2>
