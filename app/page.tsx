@@ -42,7 +42,7 @@ export default async function Home() {
   );
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 text-black">
       {/* Navigation */}
       <nav className="bg-blue-600 text-white p-4">
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
